@@ -39,18 +39,18 @@ A route table is like a map that helps data find its way around a network. Just 
 
 ### Connection between Gateway and Route table
 ### Gateways:
-    * Gateways are devices like routers or firewalls that serve as entry or exit point between different netwroks
-    * They conect networks with different IP address ranges, such as your local network and the internet
-    * Gateways receive incoming data packets and determine where to send them next based on routing information
+* Gateways are devices like routers or firewalls that serve as entry or exit point between different netwroks
+* They conect networks with different IP address ranges, such as your local network and the internet
+* Gateways receive incoming data packets and determine where to send them next based on routing information
 
 ### Route Tables:
-    * Route tables are tables maintained by netwroking devices like routers or switches that contain information about how to route data packets to their destination
-    * Devices consult the route table to determine the best path for forwarding data packets based on their destination IP addresses.
+* Route tables are tables maintained by netwroking devices like routers or switches that contain information about how to route data packets to their destination
+* Devices consult the route table to determine the best path for forwarding data packets based on their destination IP addresses.
 
 ### Connection:
-    * When a device like a computer or server wants to send data to a destination outside of its local network, it checks its route table
-    * The route table provides the information needed to determine the next hop (gateway) for reaching the destination network
-    * The device then forwards the data packet to the specified gateway, which continues the process until the packet reaches its final destination.
+* When a device like a computer or server wants to send data to a destination outside of its local network, it checks its route table
+* The route table provides the information needed to determine the next hop (gateway) for reaching the destination network
+* The device then forwards the data packet to the specified gateway, which continues the process until the packet reaches its final destination.
 
 In summary, gateways and route tables work togethet to facilitate the routing of netwrok traffic between different netwroks. Gateways serve as the entry and exit points between netwroks, while route tables provide the necessary routing information to determine how data packets should be forwarded to their destination.
 
